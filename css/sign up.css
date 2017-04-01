@@ -1,0 +1,174 @@
+body {
+  background-image:url(../images/book.jpg);
+  backgroung: transparent;
+  margin: 0 auto;
+  padding:0;
+  position:relative;
+
+}
+.container{
+  margin: 25px auto;
+  width: 900px;
+}
+#content {
+  position: relative;
+  width: 400px;
+  height:450px;
+  margin: 0 auto;
+  padding :25px 0 0;
+  background:white;
+  text-align:center;
+  box-shadow: 0 1px 0 #fff inset;
+  padding: 25px 0 0;
+  border:1px solid #c4c6ca;
+}
+#content:before,
+#content:after{
+  position: absolute;
+  content:"SIGN UP";
+  width: 100%;
+  height: 100%;
+  background: #f9f9f9;
+  boder: 1px solid #c4c6ca;
+  box-shadow: 0 1px 0 #fff inset;
+  top:0px;
+  left:-1px;
+}
+#content:before{
+  transform:rotate(2deg);
+  z-index:-1;
+}
+#content:after{
+  transform:rotate(-3deg);
+  z-index:-2;
+}
+#content h1{
+  font-family: sans-serif,arial;
+  font-size: 25px;
+  color: gray;
+  font-weight: bold;
+  letter-spacing: -0.05em;
+}
+#content h1:before,
+#content h1:after{
+  background: gray;
+  height: 1px;
+  postion:relativ;
+  width: 10px;
+
+}
+#content h1:before{
+  left: 0;
+}
+#content h1:after{
+  right:0;
+}
+.a
+{
+  width: 250px;
+  height: 30px;
+  background: #eae7e7;
+  margin: 0 auto;
+  margin-bottom: 8px;
+  border: 1px solid gainsboro;
+ border-radius: 10px;
+   box-shadow: inset 0 0 16px #000000;
+}
+.a input {
+  width: 250px;
+  height: 30px;
+  background: transparent;
+  padding-left: 5px;
+  border:0 px;
+  outline:none;
+  border-radius:10px;
+  font-size: 16px;
+  font-family:sans-serif,arial;
+  color:#333;
+
+}
+
+.b
+{
+  width: 250px;
+  height: 30px;
+
+  margin: 0 auto;
+  margin-bottom: 10px;
+  border: 1px solid gainsboro;
+ border-radius: 10px;
+}
+.b input {
+  width: 250px;
+  height: 35px;
+  padding-left: 5px;
+  backgroung: transparent;
+  border:0 px;
+  outline:none;
+  border-radius:10px;
+  font-size: 16px;
+  font-family:sans-serif,arial;
+}
+.c
+{
+  width: 250px;
+  height: 30px;
+  backgroung:#eae7e7;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  border: 1px solid gainsboro;
+ border-radius: 10px;
+}
+.c input {
+  width: 250px;
+  height: 35px;
+  padding-left: 5px;
+  backgroung: transparent;
+  border:0 px;
+  outline:none;
+  border-radius:10px;
+  font-size: 16px;
+  font-family:sans-serif,arial;
+}
+.d
+{
+  width: 250px;
+  height: 30px;
+  backgroung: #eae7e7;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  border: 1px solid gainsboro;
+ border-radius: 10px;
+}
+.d input {
+  width: 250px;
+  height: 35px;
+  backgroung: transparent;
+  padding-left: 5px;
+  border:0px;
+  outline:none;
+  border-radius:10px;
+  font-size: 16px;
+  font-family:sans-serif,arial;
+}
+.e
+{
+  width: 250px;
+  height: 30px;
+  backgroung: #eae7e7;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  border: 1px solid gainsboro;
+ border-radius: 10px;
+}
+.e input {
+  width: 250px;
+  height: 35px;
+  backgroung: transparent;
+  padding-left: 5px;
+  border:0px;
+  outline:none;
+  border-radius:10px;
+  font-size: 16px;
+  font-family:sans-serif,arial;
+}
