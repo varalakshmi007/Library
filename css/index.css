@@ -1,0 +1,148 @@
+body{
+margin: 0;
+padding: 0;
+font-family: arial;
+color: #454545;
+background-image:url(../images/f2.jpg);
+}
+h1
+{
+color: white;
+}
+.container{
+max-width: 960px;
+width: 96%;
+margin: auto;
+}
+header{
+  background:#C5CEBE;
+margin-bottom: 28px;
+overflow: hidden;
+}
+
+.logo{
+  float:left;
+margin-top: 5px;
+ margin-left: -130px;
+padding-left: 0px;
+
+}
+nav{
+  float: right;
+  line-height: 70px;
+  margin-right: -300px;
+}
+nav li{
+  display: inline-block;
+  padding: 5px 20px;
+  border-radius: 10px;
+  margin-left: 10px;
+  background: #f3f3f3;
+  line-height:  normal;
+}
+  h2{
+    padding-left: 20px;
+    margin: 0px;
+    font-family: sans-serif,arial;
+    font-weight: 40px;
+    margin-top: 10px;
+  }
+
+.account
+{
+  width:220px;
+  height:550px;
+  background-color: white;
+  margin-left: 20px;
+  float:left;
+}
+
+.account ul li{
+  display:block;
+  padding:15px;
+  margin-left:-30px;
+  border-bottom: 1px solid black;
+
+
+}
+.account ul li:hover{
+  background:#F5CBA7;
+}
+.mid{
+  background:white;
+  height:1300px;
+  width:1050px;
+  float:right;
+
+  margin-right:30px;
+}
+.leftside
+{
+  width:220px;
+  height:200px;
+  background-color: white;
+  margin-left: 20px;
+  float:left;
+  margin-top: 10px;
+}
+.leftside ul li{
+  display:block;
+  padding:15px;
+  margin-left: -20px;
+  margin-top: -12px;
+
+
+}
+.leftside ul li:hover{
+  background:#F5CBA7;
+}
+
+.search
+{
+  width:210px;
+  height:550px;
+  background-color: white;
+  margin-right: 0px;
+  float:right;
+  border:1px solid #c4c6ca;
+}
+
+.search ul li{
+  display:block;
+  padding:15px;
+  margin-left:-30px;
+  border-bottom: 1px solid black;
+
+}
+.search ul li:hover{
+  background:#F5CBA7;
+}
+#bar
+{
+  width:250px;
+  height: 30px;
+  padding: 7px;
+  border:1px solid #333;
+  border-radius: 7px;
+  float: right;
+  margin-right: -60px;
+  margin-top: 60px;
+  margin-right: -40px;
+}
+#submit
+{
+  height:30px;
+  padding: 7px;
+  background: #607d8b;
+  border: 1px solid #607d8b;
+  color:white;
+  cursor:pointer;
+  border-radius: 5px;
+  float: right;
+  margin-right: -250px;
+  margin-top: 60px;
+}
+#submit:hover{
+  background: #333;
+  tarnsition: all 0.40s;
+}

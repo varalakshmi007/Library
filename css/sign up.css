@@ -28,7 +28,7 @@ body {
   content:"SIGN UP";
   width: 100%;
   height: 100%;
-  background: #f9f9f9;
+  background: white;
   boder: 1px solid #c4c6ca;
   box-shadow: 0 1px 0 #fff inset;
   top:0px;
@@ -79,8 +79,8 @@ body {
   height: 30px;
   background: transparent;
   padding-left: 5px;
-  border:0 px;
-  outline:none;
+  border:0px;
+  outline: none ;
   border-radius:10px;
   font-size: 16px;
   font-family:sans-serif,arial;
@@ -92,18 +92,19 @@ body {
 {
   width: 250px;
   height: 30px;
-
+  background: #eae7e7;
   margin: 0 auto;
   margin-bottom: 10px;
   border: 1px solid gainsboro;
  border-radius: 10px;
+ box-shadow: inset 0 0 16px #000000;
 }
 .b input {
   width: 250px;
-  height: 35px;
+  height: 30px;
   padding-left: 5px;
-  backgroung: transparent;
-  border:0 px;
+  background: transparent;
+  border:0px;
   outline:none;
   border-radius:10px;
   font-size: 16px;
@@ -113,18 +114,19 @@ body {
 {
   width: 250px;
   height: 30px;
-  backgroung:#eae7e7;
+  background:#eae7e7;
   margin: 0 auto;
   margin-bottom: 10px;
   border: 1px solid gainsboro;
  border-radius: 10px;
+ box-shadow: inset 0 0 16px #000000;
 }
 .c input {
   width: 250px;
-  height: 35px;
+  height: 30px;
   padding-left: 5px;
-  backgroung: transparent;
-  border:0 px;
+  background: transparent;
+  border:0px;
   outline:none;
   border-radius:10px;
   font-size: 16px;
@@ -134,16 +136,17 @@ body {
 {
   width: 250px;
   height: 30px;
-  backgroung: #eae7e7;
+  background: #eae7e7;
   margin: 0 auto;
   margin-bottom: 10px;
   border: 1px solid gainsboro;
  border-radius: 10px;
+ box-shadow: inset 0 0 16px #000000;
 }
 .d input {
   width: 250px;
-  height: 35px;
-  backgroung: transparent;
+  height: 30px;
+  background: transparent;
   padding-left: 5px;
   border:0px;
   outline:none;
@@ -155,20 +158,66 @@ body {
 {
   width: 250px;
   height: 30px;
-  backgroung: #eae7e7;
+  background: #eae7e7;
   margin: 0 auto;
   margin-bottom: 10px;
   border: 1px solid gainsboro;
  border-radius: 10px;
+ box-shadow: inset 0 0 16px #000000;
 }
 .e input {
   width: 250px;
   height: 35px;
-  backgroung: transparent;
+  background: transparent;
   padding-left: 5px;
   border:0px;
   outline:none;
   border-radius:10px;
   font-size: 16px;
   font-family:sans-serif,arial;
+}
+input[type="submit"]{
+  width: 150px;
+  height: 35px;
+  border-radius: 30px;
+  border: 0px;
+  outline: none;
+  background: rgb(254,231,154);
+  background: -webkit-linear-gradient(top, rgba(254,231,154,1) 0%, rgba(254,193,81,1) 100%);
+  box-shadow: 0 1px 0 rgba(255,255,255,0.8) inset;
+  cursor: pointer;
+  color: #85592e;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+   margin-top: 3px;
+}
+input[type="submit"]:hover{
+background: -webkit-linear-gradient(top, rgba(254,193,81,1) 0%, rgba(254,231,154,1) 100%);
+}
+
+a{
+  font-family: sans-serif,arial;
+  text-decoration: none;
+  letter-spacing:-0.10em;
+ font-size: 12px;
+  color:#333;
+}
+.f {
+  font-size: 16px;
+  font-family:sans-serif,arial;
+}
+.g{
+  font-size: 16px;
+  font-family:sans-serif,arial;
+}
+
+.h{
+  font-size: 16px;
+  font-family:sans-serif,arial;
+}
+a:link{
+float:right;
+margin-right: 10px;
+font-size: 18px;
 }

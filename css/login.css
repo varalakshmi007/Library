@@ -1,11 +1,11 @@
 body{
-  background-image: url(../images/quote.png);
+  background-image: url(../images/login.jpg);
   background-size: cover;
 }
 .login
 {
   width:300px;
-  height: 220px;
+  height: 250px;
   background-color: rgba(0,0,0,0.5);
   margin:0 auto;
   margin-top:40px;
@@ -50,6 +50,21 @@ body{
   -webkit-border-radius: 5px;
   -o-border-radius:5px;
   -moz-border-radius:5px;
-  backgrounf-color:skyblue;
+  background-color:#99999;
+  text-align: center;
 
+}
+h3{
+  font-family: sans-serif,arial;
+  font-size:15px;
+  margin-top:-12px;
+}
+a:link {
+  text-decoration: none;
+}
+h2{
+  color:#BEE7E3;
+}
+a{
+  color: skyblue;
 }
